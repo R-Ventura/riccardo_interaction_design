@@ -1,159 +1,153 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    font-size: 100%;
-  }
+ margin: 0;
+ padding: 0;
+ border: 0;
+ -webkit-box-sizing: border-box;
+ box-sizing: border-box;
+ font-size: 100%;
+}
 a{
-    text-decoration: none;
-    text-transform: capitalize;
-    display: flex;
+ text-decoration: none;
+ text-transform: capitalize;
+ display: flex;
  }
 @font-face {
-    font-family: "BrutGrotesque";
-    src: url(font/BrutGrotesque-Regular.otf);
-    }
+ font-family: "BrutGrotesque";
+ src: url(font/BrutGrotesque-Regular.otf);
+}
 body{
-    font-family: "BrutGrotesque";
+ font-family: "BrutGrotesque";
 }
 .hidden{
-    display: none;
+ display: none;
 }
 .scroll{
-   overflow: scroll;
-   height: 100vh;
+ overflow: scroll;
+ height: 100vh;
 }
-
 @media(max-width:768px){
-   header{
-      background-color: black;
-   }
-    ol{
-        display: flex;
-        font-size: 80px;
-        text-decoration: none;
-        background-color: black;
-        color: #ffff;
-     }
-    h4{
-        color: #D3D3D3;
-        font-size: 30px;
-    }
-    img{
-         height: 600px;
-         width: 500px;
-         padding: 5px;
-      }
-      a{
-         text-decoration: none;
-         text-transform: capitalize;
-         display: flex;
-      }
-  .a1{
-         color: #D3D3D3;
-   }
-   .a2{
-         color: #2C2CAF;
-         text-decoration: none;
-   }
-   .a3{
-         color: #DB3535;
-   }
-   .a4{
-         color: #31E877;
-   }
-   .a5{
-         color: #F7A25A;
-   }
-   .a6{
-         color: #F2EB40;
-   }
-   .a7{
-         color: #70EAE5;
-         text-decoration: none;
-   }
-   .a8{
-         color: rgb(184, 11, 184);
-   }
-   a{
-      text-decoration: none;
-      text-transform: capitalize;
-      display: flex;
-   }
-   
-    }
-@media(min-width:769px){
  header{
-    display: grid;
-    grid-template-columns: 33.5% 67%;
-    background-color: black;
-    grid-template-rows: 1;
-    height: 150px;
-    border-bottom: 2px solid #ffff;
- }
- h2{
-    font-size: 50px;
-    padding-top: 20px;
- }
- h3{
-   background-color: #D3D3D3;
-    font-size: 30px;
- }
- .nav{
-    display: grid;
-    grid-template-columns: 1;
-    height: 400px;
-    width: 500px;
- }
- .hidden{
-    display: block;
- }
- ol{
-    font-size: 40px;
-    background-color: black;
-    border-bottom: 2px solid #ffff;
- }
- .grid{
-    display: grid;
-    align-content: end;
- }
- .container{
-    display: flex;
- }
- .column1{
-    flex: 3;
-    background-color: black;
-    
- }
- .column2{
-    flex: 6;
-    
- }
- .imgCenter{
-    text-align: center;
- }
- p{
-   padding-left: 20px;
+ background-color: black;
 }
-.pDot{
-   color: white;
+ol{
+ display: flex;
+ font-size: 80px;
+ text-decoration: none;
+ background-color: black;
+ color: #ffff;
 }
-.anteprima{
-   padding: 5px;
-   padding-bottom: 60px;
-   border-bottom: 2px solid #ffff;
+ h4{
+ color: #D3D3D3;
+ font-size: 30px;
 }
-.anteprimaDot{
-   padding-top: 60px;
-}
-.anteprimaTangram{
-   padding-left: 10px;
+ img{
+ height: 600px;
+ width: 500px;
+ padding: 5px;
 }
 a{
-   color: #ffff;
+ text-decoration: none;
+ text-transform: capitalize;
+ display: flex;
 }
-
- 
+.a1{
+ color: #D3D3D3;
 }
+.a2{
+ color: #2C2CAF;
+ text-decoration: none;
+}
+.a3{
+ color: #DB3535;
+}
+.a4{
+ color: #31E877;
+}
+.a5{
+ color: #F7A25A;
+}
+.a6{
+ color: #F2EB40;
+}
+.a7{
+ color: #70EAE5;
+ text-decoration: none;
+}
+.a8{
+ color: rgb(184, 11, 184);
+}
+a{
+ text-decoration: none;
+ text-transform: capitalize;
+ display: flex;
+}
+ }
+@media(min-width:769px){
+ header{
+ display: grid;
+ grid-template-columns: 33.5% 67%;
+ background-color: black;
+ grid-template-rows: 1;
+ height: 150px;
+ border-bottom: 2px solid #ffff;
+}
+h2{
+ font-size: 50px;
+ padding-top: 20px;
+}
+h3{
+ background-color: #D3D3D3;
+ font-size: 30px;
+}
+.nav{
+ display: grid;
+ grid-template-columns: 1;
+ height: 400px;
+ width: 500px;
+}
+.hidden{
+display: block;
+}
+ol{
+ font-size: 40px;
+ background-color: black;
+ border-bottom: 2px solid #ffff;
+}
+.grid{
+ display: grid;
+ align-content: end;
+}
+.container{
+ display: flex;
+}
+.column1{
+ flex: 3;
+ background-color: black;
+}
+.column2{
+ flex: 6;
+}
+.imgCenter{
+ text-align: center;
+}
+p{
+ padding-left: 20px;
+}
+.pDot{
+ color: white;
+}
+.anteprima{
+ padding: 5px;
+ padding-bottom: 10px;
+ border-bottom: 2px solid #ffff;
+}
+.anteprimaDot{
+ padding-top: 10px;
+}
+.anteprimaTangram{
+ padding-left: 10px;
+}
+a{
+ color: #ffff;
+}
+ }
