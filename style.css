@@ -11,6 +11,9 @@ a{
  text-transform: capitalize;
  display: flex;
  }
+a:hover{
+ color: #2C2CAF;
+}
 @font-face {
  font-family: "BrutGrotesque";
  src: url(font/BrutGrotesque-Regular.otf);
