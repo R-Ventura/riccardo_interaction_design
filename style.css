@@ -119,6 +119,7 @@ ol{
 .grid{
  display: grid;
  align-content: end;
+ padding-left: 10px;
 }
 .container{
  display: flex;
